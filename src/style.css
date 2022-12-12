@@ -1,0 +1,46 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-btn {
+    margin-left: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.gallery-link {
+    border: 1px solid #212121;
+}
+
+.gallery-link {
+    text-decoration: none;
+    color: #212121;
+}
+
+.gallery-image {
+    width: 370px;
+    height: 280px;
+}
+
+.info {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.load-more-btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.load-more-btn.is-hiden {
+    display: none;
+}
